@@ -1,6 +1,3 @@
-# print("値を入力してください。")
-# val=input()
-# print(val+"が入力されました")
 print('名前を入力してください')
 val_name=input()
 
@@ -13,17 +10,9 @@ while not val_age.isdigit():#notで否定
   print('年齢を入力してください')
   val_age=input()
 else:
-    if(val_age.isdigit()):
-      print('こんにちわ、'+val_age+'歳の'+val_name+'さん')
-      import os
-      path='./txt/'+val_name+'.txt'
-      f=open(path,'w')
-      f.write('名前:'+val_name+'\n'+'年齢:'+val_age+'歳')
-      f.close()
-
-      
-
-# if(val_age.isdigit()):
-#   print('こんにちわ、'+val_age+'歳の'+val_name+'さん')  
-# else:
-#   print('数値が入力されていません')
+  print('こんにちわ、'+val_age+'歳の'+val_name+'さん')
+  import os
+  path='./txt/'+val_name+'.txt'
+  f=open(path,'w')
+  f.write('name:'+val_name+'\n'+'age:'+val_age+'')#名前:、年齢:と日本語にしたらVScodeで見る時に文字化けるメモ帳なら文字化けしない
+  f.close()
