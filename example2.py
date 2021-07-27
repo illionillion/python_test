@@ -8,6 +8,8 @@ __author__ = 'Taku Ikegami'
 __version__ = '1.0.0'
 __date__ = '2021/06/19 (Created: 2021/06/19)'
 
+print(__author__)
+
 # モジュールをインポート（モジュールを使用できるように）
 import sys
 import doctest
@@ -63,3 +65,5 @@ if __name__ == "__main__":
 
     # main関数を呼び出して、結果（リターンコード：終了ステータス）を得て、その結果でPythonシステムを終了
     sys.exit(main())
+
+print(__name__)
