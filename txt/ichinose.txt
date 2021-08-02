@@ -1,2 +1,0 @@
-name:ichinose
-age:90
