@@ -1,3 +1,6 @@
+__author__='Ichinose Yuto'
+__date__='2121/08/03'
+
 from selenium import webdriver
 from time import sleep
 from selenium.webdriver.common.alert import Alert
