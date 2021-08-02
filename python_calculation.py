@@ -34,3 +34,26 @@ print(0xa*0xa/(0xf+5))
 
 # 8進数
 print(0o17)
+
+text='abcd'
+text+=text
+
+print(text[0])
+print(text[1:5])
+
+print('Hello {}'.format('world')) # 文字列の埋め込み
+
+text='programing by {}'.format('python')
+
+print(text)
+print(len(text))
+print(text.split())
+print(list(range(0,5)))
+num_list=list(range(0,5))
+# num_list[0]=90
+
+print(num_list)
+
+for i in num_list:
+  print(i)
+  print(num_list[i])
